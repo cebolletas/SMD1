@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SMD1
+  host: SMD1
+  disk_quota: 1024M
+  services:
+  - SMD1-cloudantNoSQLDB
